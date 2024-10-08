@@ -64,7 +64,7 @@ const about = {
     },
     calendar: {
         display: false,
-        link: 'https://cal.com'
+        link: 'https://wa.me/923106841848?text=hi%20Talha%2C%20I%20want%20video%20editor%20.'
     },
     intro: {
         display: true,

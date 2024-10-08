@@ -12,21 +12,18 @@ export const Footer = () => {
             justifyContent="center">
             <Flex
                 fillWidth maxWidth="m" paddingY="8" paddingX="16"
-                justifyContent="space-between" alignItems="center">
+                justifyContent="center" alignItems="center">
                 <Text
                     variant="body-default-s"
                     onBackground="neutral-strong">
                     <Text
                         onBackground="neutral-weak">
-                        © {currentYear} /
+                        © {currentYear} __
                     </Text>
                     <Text paddingX="4">
-                        {person.name}
+                        {person.name} __
                     </Text>
-                    <Text onBackground="neutral-weak">
-                        {/* Usage of this template requires attribution. Please don't remove the link to Once UI. */}
-                        / Build your portfolio with <SmartLink style={{marginLeft: '-0.125rem'}} href="https://once-ui.com/templates/magic-portfolio">Once UI</SmartLink>
-                    </Text>
+                    
                 </Text>
                 <Flex
                     gap="16">

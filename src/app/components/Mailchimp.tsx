@@ -123,7 +123,7 @@ export const Mailchimp = () => {
                                 value="Subscribe"
                                 size="m"
                                 fillWidth>
-                                Sign up
+                                Contact me
                             </Button>
                         </Flex>
                     </div>
